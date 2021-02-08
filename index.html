@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <main>
+        <form action="" onsubmit="Form.submit(event)">
+            <label for="Digite a tarefa" class="sr-only">Digite a tarefa que deseja adicionar</label><br>
+            <input type="text" id="tarefa" placeholder="Digite a tarefa que deseja adicionar">
+            <button class="btn-adicionar">Adicionar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>                    
+                    <th colspan="3"><h2>Tarefas</h2></th>
+                </tr>                
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <footer>João Marcos Ribeiro - 2021</footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

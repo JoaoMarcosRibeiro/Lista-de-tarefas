@@ -1,0 +1,126 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background: #070719;
+    padding: 2rem 0 10rem;
+    text-align: center;
+    color: #f0f2f5;
+}
+
+/* Main */
+main{    
+    width: min( 100vw, 800px);
+    margin: auto;
+    background:#070719;
+    align-items: center;
+    margin-top: -9rem;
+}
+
+/* Form */
+form {
+    background: #A4A4A4;
+    text-align: center;
+    width: 100%;
+    height: 8rem;
+    margin: 0;
+}
+
+form input {
+    margin-top: 1.5rem;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    
+}
+
+form button {
+    background: green;
+    color: #f0f2f5;
+    text-align: center;
+    height: 30px;
+    margin-left: 1rem;
+    border: none;
+    width: 20%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Table */
+table {
+    background: #f0f2f5;
+    width: 100%;
+    margin-top: 1rem;
+    border-spacing: 0rem 1rem;
+    
+}
+
+table thead tr th {
+    background: white;
+    height: 3rem;
+    
+}
+
+table tbody tr {
+    background:white;
+    height: 3rem;
+    
+}
+
+.checkbox {
+    width: 10%;
+    text-align: center;
+}
+
+.checkbox input {
+    width: 20px; 
+    height: 20px; 
+}
+
+.tarefa {
+    width: 74%;
+}
+
+.btn-apagar {
+    text-align: center;
+    width: 16%;
+}
+
+.btn-apagar button {
+    background:red;
+    color: #f0f2f5;
+    width: 65%;
+    text-align: center;
+    height: 30px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 4rem 0 1rem;
+    bottom: 0;
+    width: 100%;
+}
+
